@@ -1,6 +1,7 @@
 <template>
-    <div>
-    
+    <div class="search-bar">
+        <i class="fa fa-search"></i>
+        <input type="text" placeholder="Find friends, chats, Plus Friends">
     </div>
 </template>
 
@@ -10,6 +11,35 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.search-bar {
+    margin-top: 60px;
+    padding: 15px 25px;
+    position: relative;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 5px 7px;
+    box-sizing: border-box;
+    border: 0;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #f1f2f3;
+    font-size: 13px;
+    text-align: center;
+    transition: border-color .2s linear;
+  }
+  
+  .search-bar input:focus {
+    outline: none;
+    border-color: #ffe94a;
+  }
+  
+  .search-bar i {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    color: #bbbbbb;
+  }
 </style>

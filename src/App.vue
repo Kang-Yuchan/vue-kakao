@@ -2,8 +2,6 @@
   <div id="app">
     <Header></Header>
     <SearchInput></SearchInput>
-    <FriendList></FriendList>
-    <Footer></Footer>
   </div>
 </template>
 
